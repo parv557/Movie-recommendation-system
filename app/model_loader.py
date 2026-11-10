@@ -453,7 +453,7 @@ def load_model():
     print("Creating TF-IDF feature matrix...")
 
     vectorizer_options = {
-        "max_features": 3000,
+        "max_features": 50000,
         "stop_words": "english",
         "ngram_range": (1, 2),
         "sublinear_tf": True,
